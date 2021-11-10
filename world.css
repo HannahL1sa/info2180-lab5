@@ -1,13 +1,11 @@
-/* Add your own styles */
 body{
     margin:0px;
-    background-color: #979299;
+    /*background-color: #535361;*/
+    background-color: #4f4f64;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
-
-/*Header*/
 h1{
-    color: #f7e70a;
+    color:#66fcf1;
     text-align: center;
     font-size: 60px;
     margin-top: 0px;
@@ -16,51 +14,53 @@ h1{
 }
 
 header {
-    background-color: #5f0f84;
+    background-color:#171730;
 }
 
-
-/*Main*/
-main{
-    margin-top: 60px;
-    margin-bottom: 60px;
+#controls{
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
+
 
 button{
     height: 40px;
-    width: 100px;
+    width: 200px;
     border-radius: 5px;
     margin-left: 10px;
-    background-color: #f7e70a;
-    border-color: #d4c70a;
-    color: #5f0f84;
+    background-color: #ffee00;
+    border-color: #ffee00;
+    color: #171730;
+    font-weight: bold;
 }
 
 input{
     height: 40px;
     width: 400px;
     border-radius: 5px;
-    border: 3px solid #5f0f84;
+    border: 2px solid #fceb00;
+    text-indent: 10px;
 }
 
 label{
     font-weight: bold;
-    color: #5f0f84;
+    color: #fceb00;
+    margin-right: 10px;
 }
 
 
-/*Table*/
 table{
     margin-top: 40px;
-    color: #5f0f84;
+    color: #171730;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 table, th, td {
-    border: 2px solid rgb(109, 108, 108);
+    border: 2px solid #5d5d5e;
     border-collapse: collapse;
 }
 
@@ -83,5 +83,5 @@ tr{
 }
 
 tr:nth-child(even) {
-    background-color: #979299;
+    background-color: #bbf5f1;
 }
